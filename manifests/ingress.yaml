@@ -6,7 +6,6 @@ metadata:
 spec:
   ingressClassName: ingress-internal
   rules:
-  # 사번으로 변경하세요
   - host: "tr-82257400.ce-aa.kubepia.net"
     http:
       paths:
