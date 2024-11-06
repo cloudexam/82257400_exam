@@ -10,7 +10,7 @@ spec:
   - host: "tr-82257400.ce-aa.kubepia.net"
     http:
       paths:
-      - path: /actuator
+      - path: /
         backend:
           service:
             name: troubleshooting
